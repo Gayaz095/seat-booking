@@ -1,0 +1,40 @@
+.container {
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.seat {
+    width: 30px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+.seatMatrix {
+    padding: 0px 25px;
+}
+.seat:hover {
+    transform: scale(1.1);
+}
+.row {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 252, 220);
+}
+.row-avail {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(104, 214, 238);
+}
+.rowBooking {
+    align-items: center;
+    background-color: rgb(216, 216, 132);
+}
+.container-go-back {
+    padding-bottom: 20px;
+}
+.go-back {
+    padding: 10px;
+    background-color: blanchedalmond;
+}
